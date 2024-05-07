@@ -1,0 +1,21 @@
+{
+	"name": "ods_Deaths",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSGen2_ODS_Challenge2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Death.parquet",
+				"fileSystem": "ods"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

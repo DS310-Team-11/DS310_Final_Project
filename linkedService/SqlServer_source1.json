@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer_source1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=covid19-sqlserver-w2bnch6fgcsrc.database.windows.net;initial catalog=\"covid19 (covid19-sqlserver-w2bnch6fgcsrc/covid19)\";user id=sqladmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NDAxZmU3Yi05NTI1LTQ1ZTYtOTU3ZC1hZTJjOTY2MDBlZjIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "ods_Geography",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSGen2_ODS_Challenge2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Geography.parquet",
+				"fileSystem": "ods"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
