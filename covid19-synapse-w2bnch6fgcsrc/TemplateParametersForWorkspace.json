@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "covid19-synapse-w2bnch6fgcsrc"
+		},
+		"ADLSGen2_ODS_Challenge2_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_challenge1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase4_connectionString": {
+			"value": ""
+		},
+		"CosmosDbNoSql1_connectionString": {
+			"value": ""
+		},
+		"SqlServer2_VM_connectionString": {
+			"value": ""
+		},
+		"SqlServer_VM_connectionString": {
+			"value": ""
+		},
+		"SqlServer_source1_connectionString": {
+			"value": ""
+		},
+		"covid19-synapse-w2bnch6fgcsrc-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:covid19-synapse-w2bnch6fgcsrc.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"ADLSGen2_ODS_Challenge2_properties_typeProperties_url": {
+			"value": "https://covid19w2bnch6fgcsrc.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://covid19w2bnch6fgcsrc.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://covid19w2bnch6fgcsrc.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_challenge1_properties_typeProperties_url": {
+			"value": "https://covid19w2bnch6fgcsrc.dfs.core.windows.net/"
+		},
+		"covid19-synapse-w2bnch6fgcsrc-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://covid19w2bnch6fgcsrc.dfs.core.windows.net"
+		}
+	}
+}
