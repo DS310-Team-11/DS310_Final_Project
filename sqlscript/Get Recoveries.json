@@ -1,0 +1,17 @@
+{
+	"name": "Get Recoveries",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [ID]\n,[Updated]\n,[Recovered]\n,[Recovered_Change]\n,[Latitude]\n,[Longitude]\n,[ISO2]\n,[ISO3]\n,[Country_Region]\n,[load_time]\n FROM [dbo].[Recoveries]\n ",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "310project",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Get Dates",
+	"properties": {
+		"content": {
+			"query": "SELECT * FROM [dbo].[Dates]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "310project",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
